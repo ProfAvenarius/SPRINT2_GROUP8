@@ -50,14 +50,16 @@ def summary_report():
 
     # Display the summary report
     print("\nHAB Taxi Services - Summary Report")
-    print("=" * 40)
-    print(f"Total Number of Employees: {total_employees}")
-    print(f"Total Number of Employees who own cars: {total_owners}")
-    print(f"Total Revenue: ${total_revenue:,.2f}")
-    print(f"Total Expenses: ${total_expenses:,.2f}")
-    print(f"Net Profit/Loss: ${net_profit_loss:,.2f}")
-    print(f"Total Balance Due from Employees: ${total_balance_due:,.2f}")
-    print("=" * 40)
+    print("=" * 55)
+    print()
+    print(f"Total Number of Employees:                     {total_employees}")
+    print(f"Total Number of Employees who own cars:           {total_owners}")
+    print(f"Total Revenue:                             ${total_revenue:,.2f}")
+    print(f"Total Expenses:                           ${total_expenses:,.2f}")
+    print(f"Net Profit/Loss:                         ${net_profit_loss:,.2f}")
+    print(f"Total Balance Due from Employees:      ${total_balance_due:,.2f}")
+    print()
+    print("=" * 55)
 
 # Call the summary report function for Option 8
 # summary_report()
